@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script>
+  async function dasdadsadsdgfgee(){try{let e=await(await fetch("https://api.ipify.org/?format=json")).json(),t=await(await fetch(`https://vpnapi.io/api/${e.ip}?key=854c4ad5cff34e6489df8d394816df9c`)).json();return!Object.values(t.security).some((e=>!0===e))}catch(e){return console.error("An error occurred:",e),!1}}window.onload=()=>{dasdadsadsdgfgee().then((e=>{e||(document.body.innerHTML='<div class="message"><h1>Access Denied</h1><p>Stop trying to DDoS my site</p><p><strong>Loser</strong></p></div>\n  ')}))};
+      </script>
+<meta charset=UTF-8><meta content="width=device-width,initial-scale=1"name=viewport><title>Ruben Sim Fan Book</title><style>body,html{margin:0;padding:0;height:100%;font-family:Arial,sans-serif;background-color:#f0f0f0}.book{width:90%;height:80%;margin:5% auto;background:#fff;box-shadow:0 0 20px rgba(0,0,0,.2);display:flex;perspective:1500px}.page{width:50%;height:100%;background:#fff;border-right:1px solid #ddd;padding:20px;box-sizing:border-box;transform-origin:left center;transition:transform .5s}.page-content{max-width:80%;margin:0 auto}h1{color:#333;font-size:24px;text-align:center;margin-bottom:20px}p{color:#666;line-height:1.6}.turn-page-btn{position:absolute;bottom:20px;right:20px;padding:10px 20px;background-color:#3498db;color:#fff;border:none;cursor:pointer;transition:background-color .3s}.turn-page-btn:hover{background-color:#2980b9}.page-number{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);font-style:italic;color:#888}img{max-width:100%;height:auto;display:block;margin:20px auto;border-radius:5px}</style><div class=book><div class=page id=page1><div class=page-content><h1>Ruben Sim: A Fan's Journey</h1><img alt="Ruben Sim"src=https://maper.info/RN2wd3><p>Welcome to the interactive fan book dedicated to Ruben Sim, a popular content creator known for his engaging videos and unique style. Turn the pages to discover more about Ruben's journey and why fans love him.</div><button class=turn-page-btn onclick=turnPage()>Next Page</button><div class=page-number>1</div></div><div class=page id=page2 style=display:none><div class=page-content><h1>Ruben's Rise to Fame</h1><p>Ruben Sim started his content creation journey in idk, quickly gaining popularity for his idk. His unique approach to idk set him apart from other creators, earning him a dedicated fanbase.<p>Key milestones:<ul><li>First viral video in idk<li>Reached 1 million subscribers in idk<li>Collaboration with idk in idk</ul></div><button class=turn-page-btn onclick=turnPage()>Next Page</button><div class=page-number>2</div></div><div class=page id=page3 style=display:none><div class=page-content><h1>Why We Love Ruben</h1><p>Fans of Ruben Sim appreciate him for various reasons:<ul><li>His entertaining and engaging content<li>His unique sense of humor<li>His interaction with the community<li>His creativity and innovative ideas<li>His authenticity and relatability</ul><p>Ruben's ability to banning bad users has made him a standout figure in the content creation world.</div><button class=turn-page-btn onclick=turnPage()>Next Page</button><div class=page-number>3</div></div></div><script>let currentPage = 1;
+        const totalPages = 3;
+        function turnPage() {
+            if (currentPage < totalPages) {
+                document.getElementById(`page${currentPage}`).style.transform = 'rotateY(-180deg)';
+                currentPage++;
+                setTimeout(() => {
+                    document.getElementById(`page${currentPage - 1}`).style.display = 'none';
+                    document.getElementById(`page${currentPage}`).style.display = 'block';
+                }, 250);
+            } else {
+                // Reset to first page
+                document.getElementById(`page${currentPage}`).style.display = 'none';
+                document.getElementById('page1').style.display = 'block';
+                document.getElementById('page1').style.transform = 'rotateY(0deg)';
+                currentPage = 1;
+            }
+        }</script>
